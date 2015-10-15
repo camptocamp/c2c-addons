@@ -24,7 +24,7 @@
     'version' : '1.0.0',
     'category' : 'finance',
     'description' : """
-    
+
 Advanced budget analysis
 ========================
 
@@ -44,14 +44,14 @@ Functions:
 
 * *input* : source currency ; destination currency ; source amount ; date taken in count to calculate the exchange rate
 * *output* : calculated exchange rate ; calculated amount in destination currency
-    
+
 """,
     'author' : 'Camptocamp',
     'website' : 'http://www.camptocamp.com',
     'depends' : ['budget','hr_timesheet','analytic_department'],
     'data' : [
              ],
-    'installable' : True,
+    'installable' : False,
     'active' : False,
 }
 
